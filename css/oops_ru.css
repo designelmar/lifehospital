@@ -1,0 +1,166 @@
+body {
+    overflow-x: hidden;
+    background-color: #F9F9F9;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card1 {
+    position: relative !important;
+    top: 50px !important;
+}
+
+.card2 {
+    position: relative !important;
+    top: 100px !important;
+    left: 70px;
+}
+
+
+h1 {
+    font-weight: 800 !important;
+    color: #606060 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 50px !important;
+    position: relative !important;
+    top: 200px;
+    z-index: 1;
+}
+
+p {
+    position: relative !important;
+    top: 220px;
+    position: relative;
+    color: #606060;
+    z-index: 1;
+    left: -10px !important
+}
+
+.btn-text {
+    position: relative;
+    top: 2px;
+
+}
+
+.image-404 {
+    width: 750px;
+    position: relative;
+    top: 20px;
+    left: -120px;
+}
+
+.btn1 {
+    width: 160px !important;
+    height: 45px !important;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    color: #ffffff;
+    background: #1AB2FD;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 500;
+    text-decoration: none !important;
+    transition: all 0.5s !;
+    border: 2px solid#1AB2FD !important;
+    cursor: pointer !important;
+    text-transform: uppercase;
+    transition: 0.8s !important;
+    position: relative;
+    top: 250px;
+}
+
+.btn1:hover {
+    color: black !important;
+    background: #2ec8a700;
+}
+
+
+header {
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .card1 {
+        position: relative !important;
+        top: 50px !important;
+    }
+
+    .card2 {
+        position: relative !important;
+        top: 100px !important;
+        left: 70px;
+    }
+
+
+    h1 {
+        font-weight: 800 !important;
+        color: #606060 !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 30px !important;
+        position: relative !important;
+        top: 50px;
+        z-index: 1;
+    }
+
+    p {
+        position: relative !important;
+        top: 70px;
+        position: relative;
+        color: #606060;
+        z-index: 1;
+        left: -10px !important;
+        text-align: center;
+        
+    }
+
+
+    .image-404 {
+        width: 750px;
+        position: relative;
+        top: -40px;
+        left: -80px !important;
+    }
+
+
+    .btn1 {
+        width: 160px !important;
+        height: 45px !important;
+        line-height: 45px;
+        font-weight: 500;
+        position: relative;
+        top: 320px;
+    }
+
+
+    .btn-center {
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: row;
+    }
+
+    header {
+        padding-bottom: 150px;
+    }
+
+
+
+
+}

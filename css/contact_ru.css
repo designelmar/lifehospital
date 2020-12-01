@@ -1,0 +1,558 @@
+button:focus {
+  outline: none !important;
+  border: 0px !important
+}
+
+/*********TOPBTN**********/
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #14a3aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+
+.fa-map-marker-alt {
+  color: rgb(245, 241, 241) !important;
+  position: relative !important;
+  top: -1px !important;
+  left: 10px !important;
+}
+
+.fa-phone-alt {
+  color: rgb(245, 241, 241) !important;
+  position: relative !important;
+  top: -1px !important;
+  left: 8px !important;
+}
+
+.fa-envelope {
+  color: rgb(245, 241, 241) !important;
+  position: relative !important;
+  top: -1px !important;
+  left: 8px !important;
+}
+
+/*************HEADER**************/
+
+.header {
+  background-image: url(../img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 120px;
+}
+
+.med-title_cont {
+  font-size: 32px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  position: relative;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+  color: #1AB2FD;
+}
+
+.signin-title:hover {
+  color: #1AB2FD;
+}
+
+.breadcrumb {
+  background-color: white !important;
+  font-weight: 600 !important;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  width: 360px;
+  display: inline-block;
+}
+
+.breadcrumb-item {
+  position: relative;
+  left: 5px;
+}
+
+.med-div {
+  position: relative;
+  top: 12px;
+}
+
+/*************HEADER******END*******/
+
+/**********SECTİON 23 ************/
+
+.section23 {
+  padding-bottom: 300px;
+}
+
+.appointment-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: black;
+}
+
+.appointment-div {
+  position: relative;
+  top: 100px;
+}
+
+.appointment-text {
+  color: #757575;
+  position: relative;
+  top: -10px;
+}
+
+.cardcontact-div {
+  position: relative;
+  top: 150px;
+}
+
+.btn:focus
+{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+.btn4 {
+  width: 160px !important;
+  height: 50px !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  color: #ffffff;
+  background: #1AB2FD;
+  text-align: center;
+  line-height: 45px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.5s !;
+  border: 2px solid#1AB2FD !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.8s !important;
+  position: relative;
+  top: 15px;
+}
+
+.btn4:hover {
+  background-color: #1ab1fd00;
+  color: black;
+}
+
+/* Contact form */
+
+.forms {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+.form-container .response {
+  display: none
+}
+
+.forms ol {
+  margin: 0;
+  padding: 0;
+}
+
+.forms ol li {
+  line-height: auto;
+  list-style: none;
+}
+
+.forms li.hidden-row {
+  display: none
+}
+
+input, select, textarea, .uneditable-input {
+  width: 100%
+}
+
+select, textarea, input[type="text"], input[type="password"] {
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  height: 50px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  border: 1px solid #e1e3e5;
+  resize: none;
+  vertical-align: middle;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus {
+  background: rgba(255, 255, 255, 1);
+}
+
+textarea {
+  height: 100%;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-container textarea {
+  height: 290px;
+}
+
+.btn-submit {
+  position: relative;
+  height: 50px;
+  top: 30px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  background: #1AB2FD;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 200px;
+  color: #fff;
+  padding-right: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+
+.btn-submit:hover {
+  background: #32373c00;
+  color: black;
+  border: 1px solid #1AB2FD;
+}
+
+.forms label {
+  display: block;
+  float: left;
+  width: 95px;
+  padding-top: 7px;
+  font-size: 13px;
+  clear: both;
+}
+
+.comment-form div label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.forms li.error input, .forms li.error textarea {
+  border: 1px solid #fffac8
+}
+
+.forms span.error {
+  display: none
+}
+
+.forms .button-row span.error {
+  padding: 0;
+  display: none;
+}
+
+.searchform {
+  position: relative
+}
+
+.searchform input[type="text"] {
+  border-radius: 3px!important;
+  width: 90%;
+}
+
+::-webkit-input-placeholder {
+  color: #999 !important
+}
+
+:-moz-placeholder {
+  color: #999 !important
+}
+
+::-moz-placeholder {
+  color: #999 !important
+}
+
+:-ms-input-placeholder {
+  color: #999 !important
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent !important
+}
+
+input:focus:-moz-placeholder {
+  color: transparent !important
+}
+
+input:focus::-moz-placeholder {
+  color: transparent !important
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent !important
+}
+
+.add-comment label {
+  margin: 0 0 4px 0;
+}
+
+.add-comment label span {
+  color: #ff0000;
+}
+
+.add-comment input {
+  margin: 0 0 20px 0;
+  min-width: 200 px;
+}
+
+/*********CALL - RIGHT ************/
+
+.booking-call-img {
+  width: 150px;
+  height: 130px;
+  position: relative;
+  top: 40px;
+}
+
+.card-bg {
+  background-color: #F9F9F9 !important;
+  padding-bottom: 40px;
+}
+
+.h4_5 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.p5 {
+  position: relative;
+  top: 20px;
+}
+
+.call-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #1AB2FD;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: 27px;
+}
+
+.btn5:focus {
+  outline: 0px !important;
+}
+
+.btn-submit:focus {
+  outline: none !important;
+}
+
+.btn5 {
+  width: 160px !important;
+  height: 50px !important;
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+  color: #ffffff;
+  background: #1AB2FD;
+  text-align: center;
+  line-height: 45px;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.5s !;
+  border: 2px solid#1AB2FD !important;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.8s !important;
+  position: relative;
+  top: 20px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+.btn5:hover {
+  background-color: #1ab1fd00;
+  color: black;
+}
+
+.phone-icon {
+  color: gold !important;
+}
+
+input, textarea:focus {
+  outline-color: #1AB2FD;
+}
+
+/**********SECTİON 23***END*****/
+
+/******FOOTER*****/
+
+.maps-icon-footer {
+  color: #a9a9ac !important;
+  position: relative !important;
+  left: 10px !important;
+  top: 3px !important;
+}
+
+.phone-icon-footer {
+  color: #a9a9ac !important;
+  position: relative !important;
+  left: 9px!important;
+  top: 3px!important;
+}
+
+.email-icon-footer {
+  color: #a9a9ac !important;
+  position: relative !important;
+  left: 8px !important;
+  top: 3px !important;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .header {
+
+      padding-bottom: 50px !important;
+  }
+
+  .med-div {
+      position: relative !important;
+      top: -15px !important;
+  }
+
+
+  #topBtn {
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+
+
+
+
+
+  .med-title_cont {
+      font-size: 20px !important;
+      color: #111111;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      position: relative;
+      top: 60px;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+  .breadcrumb {
+      background-color: white !important;
+      font-weight: 600 !important;
+      position: relative;
+      top: 50px;
+      width: 270px !important;
+      display: inline-block;
+      left: 0px !important;
+  }
+
+  .breadcrumb-item {
+      position: relative;
+      left: 0px !important;
+      font-size: 12px !important;
+  }
+
+
+  .section23 {
+      padding-bottom: 170px !important;
+  }
+
+
+.appointment-title
+{
+  font-size: 24px !important;
+}
+
+.appointment-text
+{
+  font-size: 14px !important;
+}
+
+.cardcontact-div {
+  position: relative !important;
+  top: 120px !important;
+}
+
+
+.btn-submit {
+  position: relative;
+  height: 50px;
+  top: 26px !important;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  width: 120px !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+.btn-submit-container
+{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+}
+
+.card-bg {
+ position: relative !important;
+ top: 40px !important;
+}
+
+
+}

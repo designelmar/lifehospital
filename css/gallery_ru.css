@@ -1,0 +1,621 @@
+
+
+
+
+
+
+
+
+
+
+
+.footer-socials {
+  position: relative;
+  top: 40px !important;
+  left: 40px !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+button:focus {
+  outline: none !important;
+  border: 0px !important
+}
+
+
+
+/*********TOPBTN**********/
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #14a3aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+
+
+
+/*************HEADER**************/
+
+.header {
+  background-image: url(../img/background-galleryjpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 120px;
+}
+
+.med-title_cont {
+  font-size: 32px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  position: relative;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+  color: #1AB2FD;
+}
+
+.signin-title:hover {
+  color: #1AB2FD;
+}
+
+.breadcrumb {
+  background-color: white !important;
+  font-weight: 600 !important;
+  position: relative;
+  top: 50px;
+  width: 225px;
+  display: inline-block;
+}
+
+.breadcrumb-item {
+  position: relative;
+  left: 10px;
+}
+
+.med-div {
+  position: relative;
+  top: 12px;
+}
+
+.navlink {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+/*************HEADER******END*******/
+
+/**********SECTİON 12 ************/
+
+.gallery {
+  padding-bottom: 250px
+}
+
+
+.card {
+  transition: 0.5s !important;
+  border: none !important;
+}
+
+.card:hover {
+  box-shadow: -2px 3px 13px -2px rgba(99, 104, 107, 1) !important;
+}
+
+.nav-tab-top {
+  position: relative;
+  top: 110px;
+}
+
+.btn-2,
+.btn-3,
+.btn-4,
+.btn-5,
+.btn-6 {
+
+  border: 1px solid grey !important;
+}
+
+.active-btn {
+  color: white !important;
+  background-color: #1AB2FD !important;
+  border-color: #1AB2FD !important;
+
+}
+
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.tablist-link {
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover,
+.btn-6:hover {
+  color: white !important;
+  background-color: #1AB2FD !important;
+  border-color: #1AB2FD !important;
+}
+
+.modal {
+  position: fixed !important;
+  top: 200px !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0;
+  z-index: 1050 !important;
+  display: none !;
+  overflow: hidden !important;
+  outline: 0 !important;
+
+
+}
+
+
+
+.card-img-top {
+  cursor: pointer !important;
+}
+
+
+
+.btn-modal {
+  cursor: pointer !important;
+  position: relative !important;
+  left: -190px !important;
+}
+
+
+.btn-modal {
+  border-radius: 0 !important;
+  text-transform: uppercase !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-modal:before {
+  content: "";
+  width: 210%;
+  height: 210%;
+  position: absolute;
+  top: -120px;
+  left: 30px;
+  transform: skew(67deg);
+  z-index: -1;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-modal:hover:before {
+  top: -20px;
+  left: -52px;
+}
+
+.btn-modal.blue {
+  border: 1px solid #3fb7c8;
+  color: #3fb7c8;
+}
+
+.btn-modal.blue:hover:before {
+  background: #3fb7c8;
+}
+
+.btn-modal.blue:hover {
+  color: #fff;
+}
+
+
+
+
+/**********SECTİON 12 ****END*****/
+
+/*********************FOOTER************************/
+
+.footer {
+  padding-bottom: 180px;
+  background-color: #111111;
+}
+
+.medical-logo {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px+;
+}
+
+.medical-logo-div {
+  position: relative;
+  top: 145px;
+}
+
+.medical-text1 {
+  position: relative;
+  top: 15px;
+  color: #969696;
+}
+
+.medical-text2 {
+  position: relative;
+  top: 10px;
+  color: #969696;
+}
+
+.span2 {
+  color: #1AB2FD;
+  font-weight: 700;
+  font-size: 23px;
+  position: relative;
+  left: 7px;
+}
+
+.span3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  left: 12px;
+}
+
+.span4 {
+  position: relative;
+  top: -42px;
+  left: 25px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.span5 {
+  position: relative;
+  left: 27px;
+  top: -43px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.span6 {
+  position: relative;
+  left: 27px;
+  top: -43px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.footer-socials {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.fa-map-marker-alt {
+  color: #a9a9ac;
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+
+.fa-phone-alt {
+  color: #a9a9ac;
+  position: relative;
+  left: 9px;
+  top: 3px;
+}
+
+.fa-envelope {
+  color: #a9a9ac;
+  position: relative;
+  left: 8px;
+  top: 3px;
+}
+
+.footer-link1 {
+  text-decoration: none !important;
+  color: rgb(245, 241, 241) !important;
+  transition: 0.5s;
+}
+
+.footer-link1:hover {
+  color: gold !important;
+}
+
+.medical-footer-insta {
+  color: white !important;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.medical-icon-footer {
+  width: 50px;
+  height: 50px;
+}
+
+.medical-icon-footer2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -10px;
+}
+
+.line-left-footer {
+  width: 40px;
+  height: 1px;
+  border: 1px solid #1AB2FD;
+  position: relative;
+  top: 10px;
+  left: 130px;
+  background-color: #1AB2FD;
+}
+
+.line-right-footer {
+  width: 40px;
+  height: 1px;
+  border: 1px solid #1AB2FD;
+  position: relative;
+  top: -7px;
+  left: 182px;
+  background-color: #1AB2FD;
+}
+
+.navlink-footer {
+  font-size: 16px;
+  color: #757575;
+}
+
+.nav-footer {
+  position: relative;
+  top: 15px;
+}
+
+.navlink-footer:hover {
+  color: #1AB2FD !important;
+}
+
+.work-time-footer {
+  position: relative;
+  top: 160px;
+}
+
+.month-title2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #757575;
+  text-transform: capitalize;
+}
+
+.author-top {
+  color: #757575;
+  position: relative;
+  top: 180px;
+}
+
+.socialbox-footer {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #757575;
+  cursor: pointer;
+  position: relative;
+  left: -18px;
+  top: -4px;
+}
+
+.socialbox-footer:hover,
+.socialbox-footer:hover .fb {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover,
+.socialbox-footer:hover .tw {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover,
+.socialbox-footer:hover .sky {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover,
+.socialbox-footer:hover .yout {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.fb {
+  position: relative;
+  top: 3.5px;
+  color: #757575;
+  left: 7px;
+}
+
+.tw,
+.sky,
+.yout {
+  position: relative;
+  left: 6.5px;
+  top: 3.6px;
+  color: #757575;
+}
+
+/**********FOOTER END***************/
+
+
+
+
+@media (max-width: 768px) {
+
+  .header {
+
+    padding-bottom: 50px !important;
+  }
+
+  .med-div {
+    position: relative !important;
+    top: -15px !important;
+  }
+
+  .btn-modal-container {
+  
+    position: relative !important;
+    left: 70px  !important;
+
+  }
+
+
+
+  #topBtn {
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+  .footer-socials {
+    position: relative !important;
+    top: 40px !important;
+    left: 10px !important;
+}
+
+
+  .nav-tab-top {
+    position: relative;
+    top: 70px !important;
+
+
+  }
+
+
+
+  .tablist-link {
+    font-size: 8px !important;
+  }
+
+
+  .tab-title1 {
+    position: relative !important;
+    left: -8px !important;
+
+  }
+
+  .tab-title2 {
+    position: relative !important;
+    left: -9px !important;
+
+  }
+
+  .tab-title3 {
+    position: relative !important;
+    left: -6px !important;
+
+  }
+
+  .tab-title4 {
+    position: relative !important;
+    left: -8px !important;
+
+  }
+
+  .tab-title5 {
+    position: relative !important;
+    left: -8px !important;
+
+  }
+
+  #myTabContent {
+    position: relative !important;
+    top: -5px !important;
+  }
+
+
+  .btn-1,
+  .btn-2,
+  .btn-3,
+  .btn-4,
+  .btn-5,
+  .btn-6,
+  .btn-7,
+  .btn-8 {
+    width: 60px;
+  }
+
+
+
+  .med-title_cont {
+    font-size: 20px !important;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .table {
+    font-size: 14px !important;
+  }
+
+  .breadcrumb {
+    background-color: white !important;
+    font-weight: 600 !important;
+    position: relative;
+    top: 50px;
+    width: 220px !important;
+    display: inline-block;
+    left: 0px !important;
+  }
+
+  .breadcrumb-item {
+    position: relative;
+    left: 0px !important;
+    font-size: 12px !important;
+  }
+
+
+  .gallery {
+    padding-bottom: 130px !important;
+  }
+
+
+
+
+
+ 
+
+}
+

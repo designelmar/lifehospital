@@ -1,0 +1,292 @@
+button:focus {
+    outline: none !important;
+    border: 0px !important
+}
+
+/*********TOPBTN**********/
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #14a3aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+
+/*************HEADER**************/
+
+.header {
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.med-title_cont {
+    font-size: 32px;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+    color: #1AB2FD;
+}
+
+.signin-title:hover {
+    color: #1AB2FD;
+}
+
+.breadcrumb {
+    background-color: white !important;
+    font-weight: 600 !important;
+    position: relative;
+    top: 50px;
+    left: -15px;
+    width: 240px;
+    display: inline-block;
+}
+
+.breadcrumb-item {
+    position: relative;
+    left: 5px;
+}
+
+.med-div {
+    position: relative;
+    top: 12px;
+}
+
+/*************HEADER******END*******/
+
+/**********SECTİON 15 ************/
+
+.section15 {
+    padding-bottom: 400px;
+}
+
+.cardtext {
+    color: #2ca6d9 !important;
+    font-size: 14px;
+}
+
+.cardtitle {
+    font-size: 19px;
+}
+
+.cardbody {
+    background-color: #F8F8F8;
+}
+
+.cardbody2 {
+    background-color: #f1f1f1 !important;
+
+}
+
+.dc_title {
+    padding: 10px;
+}
+
+.box2 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #14a3aa;
+}
+
+.socials-left {
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+
+.fa-map-marker-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 10px;
+}
+
+.fa-phone-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 7.5px;
+}
+
+.fa-envelope {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 7.5px;
+}
+
+.dc-profil-top {
+    position: relative !important;
+    top: 10px !important;
+}
+
+.linegrey {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #e1e1e1;
+    background-color: #e1e1e1;
+}
+
+.dc-name-div {
+    position: relative;
+    top: 120px;
+}
+
+.dc-name {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.dc_profil_table {
+    position: relative;
+    top: 160px;
+}
+
+.dc_work_table
+{
+    position: relative;
+    top: 190px;
+}
+
+.tables {
+    position: relative !important;
+    top: 140px !important;
+}
+
+.thead-color {
+    background-color: #42b3e5 !important;
+    color: white !important;
+}
+
+.no-bold {
+    color: #626262 !important;
+    font-weight: 0 !important;
+    font-family: "Open Sans", Arial, sans-serif !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+
+.bg-color {
+    background-color: #F7F7F7 !important;
+}
+
+.dc-education {
+    position: relative;
+    top: 150px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.dc-work {
+    position: relative;
+    top: 180px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.dc_title1
+{
+    font-size: 15px !important;
+}
+
+/**********SECTİON 15***END*****/
+
+
+
+@media (max-width: 768px) {
+
+    .header {
+
+        padding-bottom: 50px !important;
+    }
+
+    .med-div {
+        position: relative !important;
+        top: -15px !important;
+    }
+
+
+    #topBtn {
+
+        width: 40px;
+        height: 40px;
+    
+      }
+
+
+      .dc-name-div {
+        position: relative;
+        top: 50px;
+            text-align: center !important;
+    }
+    
+    .dc-name {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .table-top
+    {
+        position: relative !important;
+        top: -60px !important;
+
+    }
+    
+   
+
+
+    .med-title_cont {
+        font-size: 20px !important;
+        color: #111111;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        position: relative;
+        top: 60px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+    .breadcrumb {
+        background-color: white !important;
+        font-weight: 600 !important;
+        position: relative;
+        top: 50px;
+        width: 190px !important;
+        display: inline-block;
+        left: 0px !important;
+    }
+
+    .breadcrumb-item {
+        position: relative;
+        left: 0px !important;
+        font-size: 12px !important;
+    }
+
+
+    .section15 {
+        padding-bottom: 180px !important;
+    }
+
+
+}

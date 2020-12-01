@@ -1,0 +1,463 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+button:focus {
+  outline: none !important;
+  border: 0px !important
+}
+
+/*********TOPBTN**********/
+
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #14a3aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+
+
+/*************HEADER**************/
+
+.header {
+  background-image: url(../img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 120px;
+}
+
+.med-title_cont {
+  font-size: 32px;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  position: relative;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+  color: #1AB2FD;
+}
+
+.signin-title:hover {
+  color: #1AB2FD;
+}
+
+.breadcrumb {
+  background-color: white !important;
+  font-weight: 600 !important;
+  position: relative;
+  top: 50px;
+  left: -15px;
+  width: 330px;
+  display: inline-block;
+}
+
+.breadcrumb-item {
+  position: relative;
+  left: 5px;
+}
+
+.med-div {
+  position: relative;
+  top: 12px;
+}
+
+.activelink {
+  transition: 0.3s !important;
+  color: #1AB2FD !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/*************HEADER******END*******/
+
+/**********SECTİON 13 ************/
+
+.section13 {
+  padding-bottom: 300px;
+}
+
+.tables {
+  position: relative;
+  top: 80px;
+}
+
+.tables2 {
+  position: relative;
+  top: 150px;
+}
+
+.table3
+{
+  
+    position: relative;
+    top: 200px;
+  
+}
+
+.title1 {
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+  top: 30px;
+}
+
+.title2 {
+  font-size: 28px;
+  font-weight: 700;
+  position: relative;
+  top: 100px;
+}
+
+.title3
+{
+  position: relative;
+  top: 160px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.fa-plus-circle {
+  color: #1AB2FD;
+}
+
+/**********SECTİON 13 ****END*****/
+
+/*********************FOOTER************************/
+
+.footer {
+  padding-bottom: 180px;
+  background-color: #111111;
+}
+
+.medical-logo {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px+;
+}
+
+.medical-logo-div {
+  position: relative;
+  top: 145px;
+}
+
+.medical-text1 {
+  position: relative;
+  top: 15px;
+  color: #969696;
+}
+
+.medical-text2 {
+  position: relative;
+  top: 10px;
+  color: #969696;
+}
+
+.span2 {
+  color: #1AB2FD;
+  font-weight: 700;
+  font-size: 23px;
+  position: relative;
+  left: 7px;
+}
+
+.span3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  left: 12px;
+}
+
+.span4 {
+  position: relative;
+  top: -42px;
+  left: 25px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.span5 {
+  position: relative;
+  left: 27px;
+  top: -43px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.span6 {
+  position: relative;
+  left: 27px;
+  top: -43px;
+  color: rgb(245, 241, 241) !important;
+}
+
+.footer-socials {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.fa-map-marker-alt {
+  color: #a9a9ac;
+  position: relative;
+  left: 10px;
+  top: 3px;
+}
+
+.fa-phone-alt {
+  color: #a9a9ac;
+  position: relative;
+  left: 9px;
+  top: 3px;
+}
+
+.fa-envelope {
+  color: #a9a9ac;
+  position: relative;
+  left: 8px;
+  top: 3px;
+}
+
+.footer-link1 {
+  text-decoration: none !important;
+  color: rgb(245, 241, 241) !important;
+  transition: 0.5s;
+}
+
+.footer-link1:hover {
+  color: gold !important;
+}
+
+.medical-footer-insta {
+  color: white !important;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.medical-icon-footer {
+  width: 50px;
+  height: 50px;
+}
+
+.medical-icon-footer2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -10px;
+}
+
+.line-left-footer {
+  width: 40px;
+  height: 1px;
+  border: 1px solid #1AB2FD;
+  position: relative;
+  top: 10px;
+  left: 130px;
+  background-color: #1AB2FD;
+}
+
+.line-right-footer {
+  width: 40px;
+  height: 1px;
+  border: 1px solid #1AB2FD;
+  position: relative;
+  top: -7px;
+  left: 182px;
+  background-color: #1AB2FD;
+}
+
+.navlink-footer {
+  font-size: 16px;
+  color: #757575;
+}
+
+.nav-footer {
+  position: relative;
+  top: 15px;
+}
+
+.navlink-footer:hover {
+  color: #1AB2FD !important;
+}
+
+.work-time-footer {
+  position: relative;
+  top: 160px;
+}
+
+.month-title2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #757575;
+  text-transform: capitalize;
+}
+
+.author-top {
+  color: #757575;
+  position: relative;
+  top: 180px;
+}
+
+.socialbox-footer {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #757575;
+  cursor: pointer;
+  position: relative;
+  left: -18px;
+  top: -4px;
+}
+
+.socialbox-footer:hover, .socialbox-footer:hover .fb {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover, .socialbox-footer:hover .tw {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover, .socialbox-footer:hover .sky {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.socialbox-footer:hover, .socialbox-footer:hover .yout {
+  background-color: #1AB2FD;
+  border-color: #1AB2FD;
+  color: white;
+}
+
+.fb {
+  position: relative;
+  top: 3.5px;
+  color: #757575;
+  left: 7px;
+}
+
+.tw, .sky, .yout {
+  position: relative;
+  left: 6.5px;
+  top: 3.6px;
+  color: #757575;
+}
+
+/**********FOOTER END***************/
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+
+  .header {
+
+    padding-bottom: 50px !important;
+  }
+
+
+
+
+  .med-div {
+    position: relative !important;
+    top: -15px !important;
+  }
+
+
+
+  .med-title_cont {
+    font-size: 24px !important;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+  .breadcrumb {
+    background-color: white !important;
+    font-weight: 600 !important;
+    position: relative;
+    top: 50px;
+    left: 5px !important;
+    width: 270px !important;
+    display: inline-block;
+  }
+
+  .breadcrumb-item {
+    position: relative;
+    left: 3px;
+    font-size: 13px !important;
+  }
+
+  .section12 {
+    padding-bottom: 20px !important;
+  }
+
+  .h4-1 {
+    font-size: 20px !important;
+  }
+
+
+
+  #topBtn {
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+
+
+  .medical-logo-left
+  {
+    position: relative !important;
+    left: -15px !important;
+  }
+  
+
+  .footer-socials {
+    position: relative !important;
+    top: 40px !important;
+    left: 10px !important;
+}
+
+}
+
+
+
+
+

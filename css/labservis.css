@@ -1,0 +1,389 @@
+
+@media (max-width: 768px) {
+
+  .header {
+
+      padding-bottom: 50px !important;
+  }
+
+  .med-div {
+      position: relative !important;
+      top: -15px !important;
+  }
+
+
+
+  #topBtn {
+
+    width: 40px;
+    height: 40px;
+
+  }
+
+
+  
+
+
+  
+.med-title_cont {
+  font-size: 20px !important;
+  color: #111111;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  position: relative;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.breadcrumb {
+  background-color: white !important;
+  font-weight: 600 !important;
+  position: relative;
+  top: 50px;
+  width: 190px !important;
+  display: inline-block;
+  left: 0px !important;
+}
+
+.breadcrumb-item {
+  position: relative;
+  left: 0px !important;
+  font-size: 12px !important;
+}
+
+
+.section17 {
+  padding-bottom: 120px !important;
+}
+
+
+
+
+/**********FOOTER***********/
+
+.medical-logo-div {
+  position: relative;
+  top: 50px !important;
+}
+
+
+.footer-socials {
+  position: relative !important;
+  top: 40px !important;
+  margin-left: 80px !important;
+}
+
+.socials-top {
+  color: #757575;
+  position: relative;
+  top: 180px;
+  left: 20px;
+}
+
+
+
+
+.work-time-footer {
+  position: relative !important;
+  top: 160px !important;
+  margin-left: 60px !important;
+}
+
+
+.medical-footer-insta {
+  color: white !important;
+  position: relative;
+  top: 120px !important;
+  text-align: center;
+}
+
+
+.medical-logo-left {
+  position: relative !important;
+  left: -15px !important;
+}
+
+
+.h4_1 {
+  position: relative;
+
+  top: 25px;
+  font-size: 25px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.p1 {
+  position: relative;
+  top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+  font-size: 14px !important;
+}
+
+.h4_2 {
+  position: relative;
+
+  top: 25px;
+  font-size: 25px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.p2 {
+  position: relative;
+  top: 18px;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+.h4_3 {
+  position: relative;
+
+  top: 25px;
+  font-size: 25px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.p3 {
+  position: relative;
+  top: 18px;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+.h4_4 {
+  position: relative;
+  top: 25px;
+  font-size: 25px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.p4 {
+  position: relative;
+  top: 18px;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+.boxsdiv {
+  position: relative !important;
+  top: 40px !important;
+}
+
+.section8 {
+  padding-bottom: 120px !important;
+
+}
+
+.cardboximg {
+  width: 25px !important;
+  height: 25px !important;
+  position: relative !important;
+  top: 45px !important;
+  z-index: 1;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+button:focus {
+    outline: none !important;
+    border: 0px !important
+}
+
+/*********TOPBTN**********/
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #14a3aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+.fa-map-marker-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 10px !important;
+  }
+  
+  .fa-phone-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 8px !important;
+  }
+  
+  .fa-envelope {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 8px !important;
+  }
+  
+/*************HEADER**************/
+
+.header {
+    background-image: url(../img/labservis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.med-title_cont {
+    font-size: 32px;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+    color: #1AB2FD;
+}
+
+.signin-title:hover {
+    color: #1AB2FD;
+}
+
+.breadcrumb {
+    background-color: white !important;
+    font-weight: 600 !important;
+    position: relative;
+    top: 50px;
+    left: -15px;
+    width: 240px;
+    display: inline-block;
+}
+
+.breadcrumb-item {
+    position: relative;
+    left: 5px;
+}
+
+.med-div {
+    position: relative;
+    top: 12px;
+}
+.activelink {
+  transition: 0.3s !important;
+  color: #1AB2FD !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/*************HEADER******END*******/
+
+/**********SECTİON 16 ************/
+
+.section17 {
+    padding-bottom: 180px;
+}
+
+.labservis-div
+{
+  position: relative;
+  top: 70px;
+}
+
+.lab-title
+{
+  color: white;
+  font-size: 22px;
+  position: relative;
+  top: 50px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.phone-icon
+{
+    color: gold !important;
+}
+.card-lab
+{
+  background-image: url(../img/lab1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+  z-index: 1;
+  
+}
+
+.card-lab:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.card-lab2
+{
+  background-image: url(../img/lab2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+  z-index: 1;
+}
+
+.card-lab2:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/**********SECTİON 15***END*****/
+
+
+/******FOOTER*****/
+.maps-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 10px !important;
+    top: 3px !important;
+  }
+  
+  .phone-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 9px!important;
+    top: 3px!important;
+  }
+  
+  .email-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 8px !important;
+    top: 3px !important;
+  }

@@ -1,0 +1,224 @@
+
+@media (max-width: 768px) {
+
+    .header {
+  
+        padding-bottom: 50px !important;
+    }
+  
+    .med-div {
+        position: relative !important;
+        top: -15px !important;
+    }
+  
+    #topBtn {
+
+        width: 40px;
+        height: 40px;
+    
+      }
+    
+    
+  
+  
+  
+    .med-title_cont {
+        font-size: 20px !important;
+        color: #111111;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        position: relative;
+        top: 60px;
+        font-family: 'Montserrat', sans-serif;
+    }
+  
+  
+    .table
+    {
+        font-size: 14px !important;
+    }
+  
+    .breadcrumb {
+        background-color: white !important;
+        font-weight: 600 !important;
+        position: relative;
+        top: 50px;
+        width: 275px !important;
+        display: inline-block;
+        left: 0px !important;
+    }
+  
+    .breadcrumb-item {
+        position: relative;
+        left: 0px !important;
+        font-size: 12px !important;
+    }
+  
+  
+    .section25 {
+        padding-bottom: 100px !important;
+    }
+  
+  
+  
+  
+  }
+  
+
+
+
+
+
+button:focus {
+    outline: none !important;
+    border: 0px !important
+}
+
+/*********TOPBTN**********/
+
+#topBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #14a3aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index: 1;
+}
+
+/*********TOPBTN*****END*****/
+
+.fa-map-marker-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 10px !important;
+}
+
+.fa-phone-alt {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 8px !important;
+}
+
+.fa-envelope {
+    color: rgb(245, 241, 241) !important;
+    position: relative !important;
+    top: -1px !important;
+    left: 8px !important;
+}
+
+.phone-icon
+{
+    color: gold !important;
+}
+
+
+/*************HEADER**************/
+
+.header {
+    background-image: url(../img/labservis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.med-title_cont {
+    font-size: 32px;
+    color: #111111;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    position: relative;
+    top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signin-title {
+    color: #1AB2FD;
+}
+
+.signin-title:hover {
+    color: #1AB2FD;
+}
+
+.breadcrumb {
+    background-color: white !important;
+    font-weight: 600 !important;
+    position: relative;
+    top: 50px;
+    left: -15px;
+    width: 350px;
+    display: inline-block;
+}
+
+.breadcrumb-item {
+    position: relative;
+    left: 5px;
+}
+
+.med-div {
+    position: relative;
+    top: 12px;
+}
+
+.activelink {
+    transition: 0.3s !important;
+    color: #1AB2FD !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/*************HEADER******END*******/
+
+/**********SECTİON 25 ************/
+
+.section25 {
+    padding-bottom: 170px;
+}
+
+.thead-dark
+{
+    background-color: #14a3aa !important;
+    color: white !important;
+}
+
+table
+{
+    position: relative !important;
+    top: 80px !important;
+}
+
+
+/**********SECTİON 25***END*****/
+
+/******FOOTER*****/
+
+.maps-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 10px !important;
+    top: 3px !important;
+}
+
+.phone-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 9px!important;
+    top: 3px!important;
+}
+
+.email-icon-footer {
+    color: #a9a9ac !important;
+    position: relative !important;
+    left: 8px !important;
+    top: 3px !important;
+}
